@@ -1,0 +1,62 @@
+html { 
+  background: url(../images/background-2.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body{
+	background-color: transparent;
+}
+
+@import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz|Open+Sans);
+
+h3{
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-weight: bold;
+}
+
+p{
+	font-family: 'Open Sans', sans-serif;
+}
+
+.btn{
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-weight: bold;
+	letter-spacing: .75px;
+}
+
+.container{
+	height: 500px;
+	box-shadow: 0 0 15px #000;
+	margin: auto;
+	position: absolute;
+	top: 0; left: 0; bottom: 0; right: 0;
+}
+
+.gifbox, .contentbox{
+	height:500px;
+}
+
+.gifbox{
+	background-color: #4D5254;
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+}
+
+.gif img{
+	max-height: 70%;
+	max-width: 70%;
+
+	box-shadow: 0 0 15px #000;
+	margin: auto;
+	position: absolute;
+	top: 0; left: 0; bottom: 0; right: 0;
+}
+
+.contentbox{
+	background-color: #fff;
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+}
