@@ -25,6 +25,7 @@ p{
 	font-family: 'Yanone Kaffeesatz', sans-serif;
 	font-weight: bold;
 	letter-spacing: .75px;
+	bottom: 0;
 }
 
 .container{
@@ -59,4 +60,8 @@ p{
 	background-color: #fff;
 	border-top-right-radius: 3px;
 	border-bottom-right-radius: 3px;
+}
+
+.contentbox .btn{
+	margin-top: 10%;
 }
